@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+}
+.image {
+  height: 120px;
+  width: 120px;
+}
+.heading {
+  font-size: 24px;
+  font-family: 'Roboto';
+  color: #a35200;
+}
+.para {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bold;
+}
+.button {
+  background-color: #e2a139;
+  border-style: none;
+  border-radius: 6px;
+  color: #a35200;
+  padding: 3px;
+  width: 100px;
+}
+.ul-container {
+  display: flex;
+}
+.li-items {
+  margin: 30px;
+}
